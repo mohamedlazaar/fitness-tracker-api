@@ -2,6 +2,9 @@
 
 A Django REST API for tracking fitness activities. Users can log workouts (running, cycling, swimming, walking), view their history, and get basic metrics.
 
+# API DEPLOYED URL
+https://mohamedlazaar360.pythonanywhere.com/
+
 ## Features (completed)
 - ✅ User authentication (register, login, profile)
 - ✅ CRUD for fitness activities
