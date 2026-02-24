@@ -46,6 +46,7 @@ class LoginView(APIView):
         return Response(UserProfileSerializer(user).data)
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 class CurrentUserView(APIView):
     """GET/PATCH/DELETE /api/users/me/ – current user profile (read, update, delete account)."""
     permission_classes = [IsAuthenticated]

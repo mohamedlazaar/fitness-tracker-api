@@ -1,3 +1,7 @@
-Django>=5.0,<6
-djangorestframework>=3.14
-django-filter>=24.0
+Django
+djangorestframework
+django-filter
+
+/home/mohamedlazaar360/fitness-tracker-api/fitness_api
+fitness_api
+venv
