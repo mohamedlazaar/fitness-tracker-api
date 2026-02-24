@@ -134,7 +134,6 @@ Base URL: `http://127.0.0.1:8000`. Authenticated endpoints require login first; 
 
 ---
 
-### Copy-paste curl (for video)
 
 Run **Login** first and use `-b cookies.txt` for authenticated requests.
 
